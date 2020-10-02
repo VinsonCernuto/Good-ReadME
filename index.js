@@ -1,9 +1,9 @@
 //external
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require('util');
+const util = require("util");
 const generateMarkdown = require("./generateMarkdown");
-const writeFileAsync = until.promisify(fs.writeFile)
+const writeFileAsync = util.promisify(fs.writeFile)
 
 function promptUser(){
     return inquirer.prompt([
@@ -59,16 +59,20 @@ function promptUser(){
             message:"Enter contact email",
             name: "Email"
         }
-    ])
+    ]);
 }
+
 //function using until.promisify
-    async function init(){
+async function init(){
+    try{
         //ask thw question and generate the answers
         const answers = await promptUser();
-        const generateContent = generateReadme(answers);
+        const generateContent = generateMarkdown(answers);
         //writes the read me file to generated read directory
         await writeFileAsync('./generatedReadme/README.md', generateContent);
         console.log("Successfully wrote README.md");
+    } catch(error) {
+        console.log(error);
     }  
-
+}
 init();
