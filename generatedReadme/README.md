@@ -30,12 +30,12 @@
   Contact me with provided contact info at the bottom of this README
  
   ## Tests
-  
+  NA
   
   ## Questions
-  undefined<br />
   <br />
-  :octocat: Find me on GitHub: [VinsonCernuto](https://github.com/VinsonCernuto)<br />
+  <br />
+  Find me on GitHub: [VinsonCernuto](https://github.com/VinsonCernuto)<br />
   <br />
   ✉️ Email me with any questions: undefined<br /><br />
   _This README was generated with by [README-generator](https://github.com/jpd61/README-generator) _

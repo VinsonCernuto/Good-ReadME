@@ -19,7 +19,10 @@
   For Instalation clone this repo, then run npm inquirer on the terminal after that is done type node index.js in the terminal and fill out the questions asked and the app will do the rest.
   
   ## Usage
-  
+  <img src="assets\Good-ReadME-1.PNG">
+
+
+  <img src="assets\Gif.gif">
   
   ## License
   ![badge](https://img.shields.io/badge/license-MIT License-brightgreen)
@@ -30,12 +33,12 @@
   Contact me with provided contact info at the bottom of this README
  
   ## Tests
-  
+  NA
   
   ## Questions
-  undefined<br />
   <br />
-  :octocat: Find me on GitHub: [VinsonCernuto](https://github.com/VinsonCernuto)<br />
+  <br />
+  Find me on GitHub: [VinsonCernuto](https://github.com/VinsonCernuto)<br />
   <br />
   ✉️ Email me with any questions: undefined<br /><br />
   _This README was generated with by [README-generator](https://github.com/jpd61/README-generator) _
