@@ -1,7 +1,7 @@
 
   <h1 align="center">Good-README</h1>
     
-  [Picture of MIT License]<br />
+  [Picture of MIT License](https://img.shields.io/badge/license-${answers.license}-blue.svg)<br />
   
   ## Description
    This project is an application that will generator a README.md file. the file will include a table of contents, license for the project, contact info, GitHub links and more.
@@ -24,9 +24,9 @@
   <img src="assets\Gif.gif">
   
   ## License
-  [Picture of MIT License]
+  [Picture of MIT License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
   <br />
-  This application is covered by the MIT License license. 
+  This application is covered by the MIT license. 
   
   ## Contributing
   Contact me with provided contact info at the bottom of this README

@@ -3,7 +3,7 @@ function generateMarkdown(answers) {
   return `
   <h1 align="center">${answers.title}</h1>
     
-  [Picture of ${answers.license}]<br />
+  [Picture of ${answers.license}](https://img.shields.io/badge/license-${answers.license}-blue.svg)<br />
   
   ## Description
    ${answers.description}
@@ -24,9 +24,9 @@ function generateMarkdown(answers) {
   ${answers.usage}
   
   ## License
-  [Picture of ${answers.license}]
+  [Picture of ${answers.license}](https://img.shields.io/badge/license-${answers.license}-blue.svg)
   <br />
-  This application is covered by the ${answers.license} license. 
+  This application is covered by the ${answers.license}(https://img.shields.io/badge/license-${answers.license}-blue.svg) license. 
   
   ## Contributing
   ${answers.contributing}
