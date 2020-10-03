@@ -1,7 +1,7 @@
 
   <h1 align="center">Good-README</h1>
     
-  [Picture of MIT License](https://img.shields.io/badge/license-${answers.license}-blue.svg)<br />
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
   
   ## Description
    This project is an application that will generator a README.md file. the file will include a table of contents, license for the project, contact info, GitHub links and more.
@@ -24,7 +24,7 @@
   <img src="assets\Gif.gif">
   
   ## License
-  [Picture of MIT License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   <br />
   This application is covered by the MIT license. 
   
@@ -37,7 +37,7 @@
   ## Questions
   undefined<br />
   <br />
-  :octocat: Find me on GitHub: [VinsonCernuto](https://github.com/VinsonCernuto)<br />
+  Find me on GitHub: [VinsonCernuto](https://github.com/VinsonCernuto)<br />
   <br />
   ✉️ Email me with any questions: undefined<br /><br />
   _This README was generated with by [README-generator](https://github.com/VinsonCernuto/Good-ReadME) _
